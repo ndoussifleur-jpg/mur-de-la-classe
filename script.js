@@ -78,7 +78,7 @@ function renderCities() {
     const card = document.createElement("article");
     card.className = "city-card";
     card.style.animationDelay = `${Math.min(index * 35, 350)}ms`;
-    card.style.setProperty("--tint", ["#e4f3e9", "#fff3d4", "#fce8e8"][index % 3]);
+    card.style.setProperty("--tint", ["#eee4f3", "#ffd4df", "#fce8f2"][index % 3]);
 
     const top = document.createElement("div");
     top.className = "city-top";
